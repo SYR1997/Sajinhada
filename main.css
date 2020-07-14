@@ -1,0 +1,34 @@
+header #gnb .gnb_menu ul li:first-of-type a{
+    color:black;
+}
+header #header_article{
+    float:left;
+    width:70%;
+    height:100vh;
+    background-image:url('https://search.pstatic.net/common/?src=http%3A%2F%2Fldb.phinf.naver.net%2F20200609_154%2F1591696680529KxoXh_JPEG%2FYLoXlueHvbjbaUMiRB3tHYW-.JPG.jpg');
+    background-size:100% 100%;
+    animation-name:mainphoto;
+    animation-duration:8s;
+    animation-iteration-count:infinite;
+    animation-timing-function:ease-in;
+    animation-direction:alternate;
+}
+@keyframes mainphoto{
+    from{
+        background-image:url('https://search.pstatic.net/common/?src=http%3A%2F%2Fldb.phinf.naver.net%2F20200609_154%2F1591696680529KxoXh_JPEG%2FYLoXlueHvbjbaUMiRB3tHYW-.JPG.jpg');
+    }
+    30%{
+        background-image:url('https://search.pstatic.net/common/?src=http%3A%2F%2Fldb.phinf.naver.net%2F20200609_154%2F1591696680529KxoXh_JPEG%2FYLoXlueHvbjbaUMiRB3tHYW-.JPG.jpg');
+    }
+    70%{
+        background-image:url('https://search.pstatic.net/common/?src=http%3A%2F%2Fldb.phinf.naver.net%2F20200609_186%2F1591696723096namqr_JPEG%2FXllMBg0Tb5kPkrGjSNZ5R9wL.jpg');
+    }
+    to{
+        background-image:url('https://search.pstatic.net/common/?src=http%3A%2F%2Fldb.phinf.naver.net%2F20200609_186%2F1591696723096namqr_JPEG%2FXllMBg0Tb5kPkrGjSNZ5R9wL.jpg');
+    }
+        
+}
+header #header_article .hidden{
+    display:none;
+}
+

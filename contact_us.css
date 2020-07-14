@@ -1,0 +1,59 @@
+header #gnb .gnb_menu ul li:last-child a{
+    color:black;
+}
+article{
+    width:70%;
+    height:100vh;
+    position:relative;
+    float:left;
+    background-image:url('https://search.pstatic.net/common/?src=http%3A%2F%2Fldb.phinf.naver.net%2F20200609_206%2F1591696660151z7rT2_JPEG%2F_0gLiZh3SU93eqadmzxxjRA0.jpg');
+    background-size:100% 100%;
+    color:white;
+}
+article #contact_us_detail h2{
+    position:absolute;
+    top:40%;
+    left:17%;
+    font-size:1.2em;
+    width:322px;
+}
+article #contact_us_detail h2 .user_name{
+    font-size:1.5em;
+    margin-left:2%;
+}
+article #contact_us_detail .shop_info{
+    position:absolute;
+    top:50%;
+    left:17%;
+}
+article #contact_us_detail .shop_info ul{
+    overflow:hidden;
+}
+article #contact_us_detail .shop_info ul li{
+    font-size:1.1em;
+    line-height:30px;
+    padding:0 50px 0 0;
+}
+article #contact_us_detail .shop_info ul li:nth-child(1){
+    font-size:1.5em;
+}
+article #contact_us_detail .shop_info ul li:nth-child(2){
+    font-size:0.9em;
+    margin-bottom:1%;
+}
+article #contact_us_detail .shop_info ul li:nth-child(3){
+    margin-left:1%;
+}
+article #contact_us_detail .shop_info ul li:nth-child(4){
+    margin-left:1%;
+    width:254px;
+}
+article #contact_us_detail .shop_info ul li .holiday{
+    font-size:0.7em;
+    display:block;
+    line-height:12px;
+    margin-left:1%;
+}
+
+
+

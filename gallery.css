@@ -1,0 +1,155 @@
+header #gnb .gnb_menu ul li:nth-child(3) a{
+    color:black;
+}
+article{
+    width:70%;
+    height:100vh;
+    float:left;
+    position:relative;
+}
+article .hidden{
+    font-size:0;
+}
+article #article_title h2{
+    font-size:2em;
+    position:absolute;
+    top:5%;
+}
+article #photo_section{
+    position:absolute;
+    top:10%;
+    width:100%;
+    height:90%;
+}
+article #photo1{
+    background-image:url('https://modo-phinf.pstatic.net/20200616_187/1592262081897k98Sm_JPEG/mosaiCya05.jpeg?type=f353_353');
+    background-size:100% 100%;
+    float:left;
+    width:400px;
+    height:400px;
+    margin:1% 1% 1% 0;
+    animation-name:photo_change1;
+    animation-direction:alternate;
+    animation-delay:3s;
+    animation-duration:8s;
+    animation-iteration-count:infinite;
+    animation-timing-function:ease;
+}
+@keyframes photo_change1{
+    20%{
+        background-image:url('https://modo-phinf.pstatic.net/20200616_187/1592262081897k98Sm_JPEG/mosaiCya05.jpeg?type=f353_353');
+    }
+    to{
+        background-image:url('https://modo-phinf.pstatic.net/20200616_64/1592262080160SM4NC_JPEG/mosaqVHXKT.jpeg?type=f353_353');
+    }
+}
+article #photo2{
+    background-image:url('https://modo-phinf.pstatic.net/20200616_133/1592266399321FagNm_JPEG/mosaSWRN3h.jpeg?type=f353_353');
+    background-size:100% 100%;
+    float:left;
+    width:400px;
+    height:400px;
+    margin:1% 1% 1% 1%;
+    animation-name:photo_change2;
+    animation-direction:alternate;
+    animation-delay:3s;
+    animation-duration:8s;
+    animation-iteration-count:infinite;
+    animation-timing-function:ease;
+}
+@keyframes photo_change2{
+    20%{
+        background-image:url('https://modo-phinf.pstatic.net/20200616_133/1592266399321FagNm_JPEG/mosaSWRN3h.jpeg?type=f353_353');
+    }
+    to{
+        background-image:url('https://modo-phinf.pstatic.net/20200616_52/1592262078365amHQ5_JPEG/mosaQY399T.jpeg?type=f353_353');
+    }
+}
+article #photo3{
+    background-image:url('https://modo-phinf.pstatic.net/20200616_156/1592266396514Ts4Ne_JPEG/mosasUqBeZ.jpeg?type=f336_336');
+    background-size:100% 100%;
+    float:left;
+    width:400px;
+    height:400px;
+    margin:1% 1% 1% 1%;
+    animation-name:photo_change3;
+    animation-direction:alternate;
+    animation-delay:3s;
+    animation-duration:8s;
+    animation-iteration-count:infinite;
+    animation-timing-function:ease;
+}
+@keyframes photo_change3{
+    20%{
+        background-image:url('https://modo-phinf.pstatic.net/20200616_156/1592266396514Ts4Ne_JPEG/mosasUqBeZ.jpeg?type=f336_336');
+    }
+    to{
+        background-image:url('https://modo-phinf.pstatic.net/20200616_132/1592262077755yaF4D_JPEG/mosa4Wy4kC.jpeg?type=a1100');
+    }
+}
+article #photo4{
+    background-image:url('https://modo-phinf.pstatic.net/20200616_200/1592263079352K6cI9_JPEG/mosagBJ1vH.jpeg?type=f336_336');
+    background-size:100% 100%;
+    float:left;
+    width:400px;
+    height:400px;
+    margin:1% 1% 1% 0;
+    animation-name:photo_change4;
+    animation-direction:alternate;
+    animation-delay:3s;
+    animation-duration:8s;
+    animation-iteration-count:infinite;
+    animation-timing-function:ease;
+}
+@keyframes photo_change4{
+    20%{
+        background-image:url('https://modo-phinf.pstatic.net/20200616_200/1592263079352K6cI9_JPEG/mosagBJ1vH.jpeg?type=f336_336');
+    }
+    to{
+        background-image:url('https://modo-phinf.pstatic.net/20200616_284/15922632011081iUE9_JPEG/mosazhkSb5.jpeg?type=f353_353');
+    }
+}
+article #photo5{
+    background-image:url('https://modo-phinf.pstatic.net/20200616_105/15922664052222lwr7_JPEG/mosarrtUbe.jpeg?type=f353_353');
+    background-size:100% 100%;
+    float:left;
+    width:400px;
+    height:400px;
+    margin:1% 1% 1% 1%;
+    animation-name:photo_change5;
+    animation-direction:alternate;
+    animation-delay:3s;
+    animation-duration:8s;
+    animation-iteration-count:infinite;
+    animation-timing-function:ease;
+}
+@keyframes photo_change5{
+    20%{
+        background-image:url('https://modo-phinf.pstatic.net/20200616_105/15922664052222lwr7_JPEG/mosarrtUbe.jpeg?type=f353_353');
+    }
+    to{
+        background-image:url('https://modo-phinf.pstatic.net/20200616_175/15922663972081CEiT_JPEG/mosaP5OVVL.jpeg?type=f353_353');
+    }
+}
+article #photo6{
+    background-image:url('https://modo-phinf.pstatic.net/20200616_110/1592262083164egzQ6_JPEG/mosaYlAtQ0.jpeg?type=f353_353');
+    background-size:100% 100%;
+    float:left;
+    width:400px;
+    height:400px;
+    margin:1% 1% 1% 1%;
+    animation-name:photo_change6;
+    animation-direction:alternate;
+    animation-delay:3s;
+    animation-duration:8s;
+    animation-iteration-count:infinite;
+    animation-timing-function:ease;
+}
+@keyframes photo_change6{
+    20%{
+        background-image:url('https://modo-phinf.pstatic.net/20200616_110/1592262083164egzQ6_JPEG/mosaYlAtQ0.jpeg?type=f353_353');
+    }
+    to{
+        background-image:url('https://modo-phinf.pstatic.net/20200616_34/1592262076337XkT6g_JPEG/mosa8zH9S7.jpeg?type=a1100');
+    }
+}

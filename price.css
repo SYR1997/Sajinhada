@@ -1,0 +1,171 @@
+header #gnb .gnb_menu ul li:nth-child(4) a{
+    color:black;
+}
+article{
+    width:40%;
+    height:100vh;
+    float:left;
+    position:relative;
+}
+article #price_info h2{
+    font-size:2em;
+    position:absolute;
+    top:5%;
+}
+article #price_info ul{
+    position:absolute;
+    top:15%;
+    width:80%;
+}
+article #price_info ul li{
+    font-size:1.3em;
+    margin-bottom:8%;
+    position:relative;
+}
+article #price_info ul li .detail{
+    display:block;
+    margin-top:2%;
+    font-size:0.6em;
+    color:gray;
+}
+article #price_info ul li .price{
+    display:inline-block;
+    position:absolute;
+    right:10%;
+    text-align:right;
+}
+section{
+    width:30%;
+    height:100vh;
+    float:left;
+    background-image:url('https://search.pstatic.net/common/?src=http%3A%2F%2Fldb.phinf.naver.net%2F20200609_143%2F1591696775913EHhxt_JPEG%2F6pHW_fGmSA071858NkTzEQRv.jpg');
+    background-size:cover;
+    background-position:center;
+}
+section #photo_section{
+    font-size:0;
+}
+article #price_info ul li:nth-child(3){
+    animation-name:best;
+    animation-direction:alternate;
+    animation-duration:1s;
+    animation-iteration-count:infinite;
+}
+article #price_info ul li:nth-child(5){
+    animation-name:best;
+    animation-direction:alternate;
+    animation-duration:1s;
+    animation-iteration-count:infinite;
+}
+@keyframes best{
+    from{
+        color:black;
+    }
+    to{
+        color:red;
+    }
+}
+article #price_info ul li:nth-child(3) .price::after{
+    content:'BEST';
+    font-size:0.6em;
+    padding:4%;
+    position:absolute;
+    left:150%;
+    top:-10%;
+    border:1px solid red;
+    border-radius:5px;
+    background-color:red;
+    color:white;
+    font-weight:bold;
+}
+
+article #price_info ul li:nth-child(5) .price::after{
+    content:'BEST';
+    font-size:0.6em;
+    padding:4%;
+    position:absolute;
+    left:150%;
+    top:-10%;
+    border:1px solid red;
+    border-radius:5px;
+    background-color:red;
+    color:white;
+    font-weight:bold;
+}
+article #price_info ul li:last-child{
+    animation-name:new;
+    animation-direction:alternate;
+    animation-duration:1s;
+    animation-iteration-count:infinite;
+}
+@keyframes new{
+    from{
+        color:black;
+    }
+    to{
+        color:rgb(196, 178, 19);
+    }
+}
+article #price_info ul li:last-child .price::after{
+    content:'NEW';
+    font-size:0.6em;
+    padding:4.5%;
+    position:absolute;
+    left:156%;
+    top:-10%;
+    border:1px solid rgb(196, 178, 19);
+    border-radius:5px;
+    background-color:rgb(196, 178, 19);
+    color:white;
+    font-weight:bold;
+}
+article #price_info ul li:nth-child(2){
+    animation-name:advice;
+    animation-direction:alternate;
+    animation-duration:1s;
+    animation-iteration-count:infinite;
+}
+article #price_info ul li:nth-child(4){
+    animation-name:advice;
+    animation-direction:alternate;
+    animation-duration:1s;
+    animation-iteration-count:infinite;
+}
+@keyframes advice{
+    from{
+        color:black;
+    }
+    to{
+        color:rgb(9, 148, 72);
+    }
+}
+article #price_info ul li:nth-child(2) .price::after{
+    content:'PUSH';
+    font-size:0.6em;
+    padding:4.5%;
+    position:absolute;
+    left:156%;
+    top:-10%;
+    border:1px solid rgb(9, 148, 72);
+    border-radius:5px;
+    background-color:rgb(9, 148, 72);
+    color:white;
+    font-weight:bold;
+}
+article #price_info ul li:nth-child(4) .price::after{
+    content:'PUSH';
+    font-size:0.6em;
+    padding:4%;
+    position:absolute;
+    left:150%;
+    top:-10%;
+    border:1px solid rgb(9, 148, 72);
+    border-radius:5px;
+    background-color:rgb(9, 148, 72);
+    color:white;
+    font-weight:bold;
+}
+
+
+
+
